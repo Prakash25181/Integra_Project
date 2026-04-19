@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="320dp"
+    android:layout_height="420dp"
+    android:minWidth="320dp"
+    android:minHeight="420dp"
+    style="@style/PopupFrame">
+    <FrameLayout
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/remote_parent_parent"
+        android:layout_width="306dp"
+        android:layout_height="361dp"
+        android:layout_weight="1"/>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:id="@+id/segment_button_parent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+</LinearLayout>

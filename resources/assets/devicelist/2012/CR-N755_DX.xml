@@ -1,0 +1,52 @@
+<device id="CR-N755">
+	<brand>ONKYO</brand>
+	<category>CD Receiver</category>
+	<model>CR-N755</model>
+	<destination>Dx</destination>
+	<year>2012</year>
+	<netservicelist count="12">
+		<netservice id="0A" value="1" name="Spotify" account="" password="" />
+		<netservice id="0B" value="1" name="AUPEO!" account="" password="" />
+		<netservice id="02" value="1" name="vTuner" account="" password="" />
+		<netservice id="04" value="1" name="Pandora" account="" password="" />
+		<netservice id="05" value="1" name="Rhapsody" account="" password="" />
+		<netservice id="03" value="1" name="SiriusXM Internet Radio" account="" password="" />
+		<netservice id="08" value="1" name="Slacker Personal Radio" account="" password="" />
+		<netservice id="0F" value="1" name="MP3Tunes" account="" password="" />
+		<netservice id="06" value="1" name="Last.fm" account="" password="" />
+		<netservice id="00" value="1" name="DLNA" account="" password="" />
+		<netservice id="11" value="1" name="Home Media" account="" password="" />
+		<netservice id="01" value="1" name="My Favorites" account="" password="" />
+	</netservicelist>
+	<zonelist count="1">
+		<zone id="1" value="1" name="Main" volmax="42" volstep="1" />
+	</zonelist>
+	<selectorlist count="11">
+		<selector id="23" value="1" name="CD" zone="FF" iconid="47" />
+		<selector id="41" value="1" name="LINE1" zone="FF" iconid="41" />
+		<selector id="42" value="1" name="LINE2" zone="FF" iconid="42" />
+		<selector id="03" value="1" name="AUX" zone="FF" iconid="44" />
+		<selector id="44" value="1" name="OPTICAL" zone="FF" iconid="44" />
+		<selector id="45" value="1" name="COAXIAL" zone="FF" iconid="45" />
+		<selector id="29" value="1" name="USB(F)" zone="FF" iconid="29" />
+		<selector id="2A" value="1" name="USB(R)" zone="FF" iconid="2A" />
+		<selector id="2B" value="1" name="NET" zone="FF" iconid="2B" />
+		<selector id="24" value="1" name="FM" zone="FF" iconid="24" />
+		<selector id="25" value="1" name="AM" zone="FF" iconid="25" />
+	</selectorlist>
+	<presetlist count="40"></presetlist>
+	<controllist count="8">
+		<control id="Bass" value="1" zone="1" min="-3" max="3" step="1" />
+		<control id="Treble" value="1" zone="1" min="-3" max="3" step="1" />
+		<control id="Phase Matching Bass" value="1" />
+		<control id="Tone Direct" value="1" />
+		<control id="TUNER Control" value="1" />
+		<control id="TUNER Freq Control" value="1" />
+		<control id="Info" value="1" />
+		<control id="Menu" value="1" />
+		<control id="Cursor" value="1" />
+		<control id="CD Control" value="1" />
+		<control id="NoVideoInfo" value="1" />
+		<control id="NoAudioInfo" value="1" />
+	</controllist>
+</device>

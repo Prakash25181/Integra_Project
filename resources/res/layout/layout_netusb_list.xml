@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@color/app_bkgnd"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ListView
+        android:id="@+id/content_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:divider="@color/net_table_separator"
+        android:dividerHeight="0.5dp"
+        android:headerDividersEnabled="true"/>
+    <include layout="@layout/layout_connecting_indicator"/>
+    <TextView
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@color/net_no_item_text"
+        android:layout_gravity="center"
+        android:id="@+id/empty_label"
+        android:padding="8dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/noServer"
+        android:singleLine="true"/>
+    <com.onkyo.jp.onkyoremote.view.widget.StepSlideBar
+        android:layout_gravity="bottom|center_horizontal"
+        android:id="@+id/query_progress"
+        android:visibility="invisible"
+        android:layout_width="match_parent"
+        android:layout_height="8dp"
+        bar_drawable="@drawable/slider_volume_bkgnd"
+        thumb_drawable=""
+        value_drawable="@drawable/slider_volume_value"/>
+</FrameLayout>

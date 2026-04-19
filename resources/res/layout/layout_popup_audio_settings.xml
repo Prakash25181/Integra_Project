@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    style="@style/PopupFrame">
+    <com.onkyo.jp.onkyoremote.view.widget.ScrollViewWidthMaxSize
+        android:id="@+id/audio_settings_parent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:minWidth="306dp"
+        maxHeight="410"
+        maxWidth="306"/>
+</LinearLayout>

@@ -1,0 +1,53 @@
+<device id="NR-365">
+	<brand>ONKYO</brand>
+	<category>AV Receiver</category>
+	<model>NR-365</model>
+	<destination>JJ</destination>
+	<year>2012</year>
+	<netservicelist>
+		<netservice id="02" value="1" name="vTuner" account="" password="" />
+		<netservice id="0B" value="1" name="AUPEO!" account="" password="" />
+		<netservice id="0D" value="1" name="e-onkyo music" account="" password="" />
+		<netservice id="0C" value="1" name="radiko.jp" account="" password="" />
+		<netservice id="0F" value="1" name="MP3Tunes" account="" password="" />
+		<netservice id="01" value="1" name="My Favorites" account="" password="" />
+		<netservice id="00" value="1" name="DLNA" account="" password="" />
+		<netservice id="11" value="1" name="Home Media" account="" password="" />
+	</netservicelist>
+	<zonelist>
+		<zone id="1" value="1" name="Main" volmax="80" volstep="1" />
+	</zonelist>
+	<selectorlist>
+		<selector id="10" value="1" name="BD/DVD" zone="FF" iconid="10" />
+		<selector id="01" value="1" name="CBL/SAT" zone="FF" iconid="01" />
+		<selector id="00" value="1" name="STB/DVR" zone="FF" iconid="00" />
+		<selector id="02" value="1" name="GAME1" zone="FF" iconid="02" />
+		<selector id="04" value="1" name="GAME2" zone="FF" iconid="04" />
+		<selector id="05" value="1" name="PC" zone="FF" iconid="05" />
+		<selector id="20" value="1" name="TAPE" zone="FF" iconid="100" />
+		<selector id="23" value="1" name="TV/CD" zone="FF" iconid="23" />
+		<selector id="03" value="1" name="AUX" zone="FF" iconid="03" />
+		<selector id="2B" value="1" name="NET" zone="FF" iconid="2B" />
+		<selector id="29" value="1" name="USB(F)" zone="FF" iconid="29" />
+		<selector id="2A" value="1" name="USB(R)" zone="FF" iconid="2A" />
+		<selector id="80" value="1" name="Source" zone="FE" iconid="80" />
+	</selectorlist>
+	<controllist>
+		<control id="Bass" value="1" zone="3" min="-10" max="10" step="2" />
+		<control id="Treble" value="1" zone="3" min="-10" max="10" step="2" />
+		<control id="Center Level" value="1" min="-12" max="12" step="1" />
+		<control id="Subwoofer Level" value="1" zone="1" min="-15" max="12" step="1" />
+		<control id="LMD Movie/TV" value="1" code="MOVIE" position="0" />
+		<control id="LMD Music" value="1" code="MUSIC" position="0" />
+		<control id="LMD Game" value="1" code="GAME" position="0" />
+		<control id="LMD Stereo" value="1" code="00" position="0" />
+		<control id="Info" value="1" />
+		<control id="Cursor" value="1" />
+		<control id="Home" value="1" code="HOME" position="0" />
+		<control id="Quick" value="1" code="QUICK" position="1" />
+		<control id="BD Control(CEC)" value="1" />
+		<control id="TV Control(CEC)" value="1" />
+		<control id="NoVideoInfo" value="0" />
+		<control id="NoAudioInfo" value="0" />
+	</controllist>
+</device>

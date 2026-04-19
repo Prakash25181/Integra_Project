@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@color/server_select_backgnd"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:textSize="16dp"
+        android:textColor="@color/server_select_no_wi_fi"
+        android:layout_gravity="center"
+        android:id="@+id/textView32"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/noWifiNetwork"/>
+    <Button
+        android:textColor="@color/demo_mode_button_no_wi_fi"
+        android:layout_gravity="bottom|right"
+        android:id="@+id/demo_mode_button"
+        android:background="@color/clear"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginBottom="60dp"
+        android:text="@string/demoMode"
+        android:textAllCaps="false"
+        style="?android:attr/borderlessButtonStyle"/>
+</FrameLayout>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:background="@color/app_bkgnd"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ListView
+        android:id="@+id/content_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:divider="@color/net_table_separator"
+        android:dividerHeight="0.5dp"
+        android:layout_weight="1"/>
+    <LinearLayout
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <com.onkyo.jp.onkyoremote.view.widget.GlowImageButton
+            android:id="@+id/page_up_button"
+            android:background="@color/clear"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:src="@drawable/page_up"/>
+        <com.onkyo.jp.onkyoremote.view.widget.GlowImageButton
+            android:id="@+id/page_down_button"
+            android:background="@color/clear"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:src="@drawable/page_down"/>
+    </LinearLayout>
+</LinearLayout>

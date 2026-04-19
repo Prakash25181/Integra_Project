@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:state_selected="true"
+        android:color="@color/net_cell_title_select"/>
+    <item android:color="@color/net_cell_title_normal"/>
+</selector>

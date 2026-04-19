@@ -1,0 +1,36 @@
+<device id="T-4070">
+  <brand>ONKYO</brand>
+  <category>Tuner</category>
+  <model>T-4070</model>
+  <destination>JJ</destination>
+  <year>2011</year>
+  <netservicelist count="6">
+    <netservice id="0B" value="1" name="AUPEO!" account="" password="" />
+    <netservice id="02" value="1" name="vTuner" account="" password="" />
+    <netservice id="00" value="1" name="DLNA" account="" password="" />
+    <netservice id="0D" value="1" name="e-onkyo music" account="" password="" />
+    <netservice id="0C" value="1" name="radiko.jp" account="" password="" />
+    <netservice id="01" value="1" name="My Favorites" account="" password="" />
+  </netservicelist>
+  <zonelist count="1">
+    <zone id="1" value="1" name="TUNER" volmax="0" volstep="1" />
+  </zonelist>
+  <selectorlist count="4">
+    <selector id="25" value="1" name="AM" zone="FF" iconid="25" />
+    <selector id="24" value="1" name="FM" zone="FF" iconid="24" />
+    <selector id="2B" value="1" name="NET" zone="FF" iconid="2B" />
+    <selector id="29" value="1" name="USB" zone="FF" iconid="29" />
+  </selectorlist>
+  <presetlist count="40">
+  </presetlist>
+  <controllist count="3">
+    <control id="TUNER Control" value="1" />
+    <control id="TUNER Freq Control" value="1" />
+    <control id="Menu" value="1" />
+    <control id="Cursor" value="1" />
+    <control id="NoVideoInfo" value="1" />
+    <control id="NoAudioInfo" value="1" />
+    <control id="AMP Control(RI)" value="1" />
+    <control id="CD Control(RI)" value="1" />
+  </controllist>
+</device>

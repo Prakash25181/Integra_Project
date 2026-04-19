@@ -1,0 +1,63 @@
+<device id="DHC-80.3">
+  <brand>Integra</brand>
+  <category>AV Controller</category>
+  <model>DHC-80.3</model>
+  <destination>Dx</destination>
+  <year>2011</year>
+  <netservicelist count="12">
+    <netservice id="0A" value="1" name="Spotify" account="" password="" />
+    <netservice id="0B" value="1" name="AUPEO!" account="" password="" />
+    <netservice id="02" value="1" name="vTuner" account="" password="" />
+    <netservice id="09" value="1" name="Mediafly" account="" password="" />
+    <netservice id="07" value="1" name="Napster" account="" password="" />
+    <netservice id="04" value="1" name="Pandora" account="" password="" />
+    <netservice id="05" value="1" name="Rhapsody" account="" password="" />
+    <netservice id="03" value="1" name="SiriusXM Internet Radio" account="" password="" />
+    <netservice id="08" value="1" name="Slacker Personal Radio" account="" password="" />
+    <netservice id="06" value="1" name="Last.fm" account="" password="" />
+    <netservice id="00" value="1" name="DLNA" account="" password="" />
+    <netservice id="01" value="1" name="My Favorites" account="" password="" />
+  </netservicelist>
+  <zonelist count="3">
+    <zone id="1" value="1" name="Main" volmax="100" volstep="1" />
+    <zone id="2" value="1" name="Zone2" volmax="100" volstep="1" />
+    <zone id="3" value="1" name="Zone3" volmax="100" volstep="1" />
+  </zonelist>
+  <selectorlist count="15">
+    <selector id="10" value="1" name="BD/DVD" zone="FF" iconid="10" />
+    <selector id="00" value="1" name="VCR/DVR" zone="FF" iconid="00" />
+    <selector id="01" value="1" name="CBL/SAT" zone="FF" iconid="01" />
+    <selector id="02" value="1" name="Game" zone="FF" iconid="02" />
+    <selector id="05" value="1" name="PC" zone="FF" iconid="05" />
+    <selector id="03" value="1" name="AUX" zone="FF" iconid="03" />
+    <selector id="25" value="1" name="AM" zone="FF" iconid="25" />
+    <selector id="24" value="1" name="FM" zone="FF" iconid="24" />
+    <selector id="23" value="1" name="TV/CD" zone="FF" iconid="23" />
+    <selector id="22" value="1" name="Phono" zone="FF" iconid="22" />
+    <selector id="40" value="1" name="Port" zone="FF" iconid="40" />
+    <selector id="2B" value="1" name="NET" zone="FF" iconid="2B" />
+    <selector id="29" value="1" name="USB(Front)" zone="FF" iconid="29" />
+    <selector id="2A" value="1" name="USB(Rear)" zone="FF" iconid="2A" />
+    <selector id="80" value="1" name="Source" zone="FE" iconid="80" />
+  </selectorlist>
+  <presetlist count="40">
+  </presetlist>
+  <controllist count="13">
+    <control id="Bass" value="1" zone="7" min="-10" max="10" step="2" />
+    <control id="Treble" value="1" zone="7" min="-10" max="10" step="2" />
+    <control id="Center Level" value="1" min="-12" max="12" step="1" />
+    <control id="Subwoofer Level" value="1" min="-15" max="12" step="1" />
+    <control id="LMD Movie/TV" value="1" code="MOVIE" position="0" />
+    <control id="LMD Music" value="1" code="MUSIC" position="0" />
+    <control id="LMD Game" value="1" code="GAME" position="0" />
+    <control id="LMD THX" value="1" code="04" position="0" />
+    <control id="TUNER Control" value="1" />
+    <control id="TUNER Freq Control" value="1" />
+    <control id="Info" value="1" />
+    <control id="Cursor" value="1" />
+    <control id="Home" value="1" code="HOME" position="0" />
+	<control id="Menu" value="1" />
+    <control id="BD Control(CEC)" value="1" />
+    <control id="TV Control(CEC)" value="1" />
+  </controllist>
+</device>
